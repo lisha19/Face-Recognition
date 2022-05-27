@@ -31,3 +31,19 @@ Instructions For Student:
 7. Photos will save in image storage.
 8. When your lecturer take the attendance of a particular course, all your uploaded facial data will be counted into the dataset for facial comparison.
 9. You can Visualize your attendance data by clicking on "Attendance History" , or you can enter a particular course and click "View Attendance History"
+
+
+## Running the application
+### Server
+1. Make sure the 10 env variables have been assigned in ".env" file.
+2. Install the "nodemon" which can restart the server script automatically if changes are detected.
+3. Open CMD, execute command "npm i -g nodemon" to install nodemon globally.
+4. Take a look at "server/package.json".
+5. Open CMD under directory "server", type "npm run dev".
+6. The server is running on http://localhost:4000.
+
+### Client
+1. The client script is built using ReactJS, through CRA command.
+2. Open CMD under directory "client", type "npm start".
+3. The client is running on http://localhost:3000.
+
