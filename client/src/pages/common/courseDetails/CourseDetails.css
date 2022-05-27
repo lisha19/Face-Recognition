@@ -1,0 +1,45 @@
+.courseDetails__card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.courseDetails__row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.courseDetails__info{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+  
+    background-image: linear-gradient(to left bottom, #d7cbdc, #ccc4e3, #b8c0ea, #99bef1, #6cbdf3);
+    min-width: 1200px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    text-shadow: 1px 1px 1px  #8dd38c;
+    color: #045867;
+    font-weight: bolder;
+}
+
+.courseDetails__shortID{
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.courseDetails__addStudentForm{
+    display: flex !important;
+    align-items: flex-end !important;
+    
+}
+.courseDetails__addStudentForm__input{
+    width: 450px !important;
+    margin-right: 20px !important;
+}

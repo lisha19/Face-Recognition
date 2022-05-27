@@ -1,0 +1,54 @@
+.profile__card{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50% !important;
+    background-image: linear-gradient(to left bottom, #d7cbdc, #ccc4e3, #b8c0ea, #99bef1, #6cbdf3);
+}
+
+.profile__background{
+    background: #fff !important;
+    padding: 24;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
+
+
+.profile__content{
+    display: flex;
+    justify-content: center;
+    margin: 24px 16px 0;
+}
+
+
+.profile__picture__container{
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    flex-direction: column;
+}
+
+.profile__picture__container .profile__picture{
+    margin-bottom: 20px;
+}
+
+.profile__picture__container .profile__picture__label{
+    color: rgb(4, 182, 49);
+    font-weight: 800;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.profile__picture__container .profile__picture__input{
+    visibility: hidden;
+}
+
+.profile__form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

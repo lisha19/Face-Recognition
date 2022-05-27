@@ -1,0 +1,54 @@
+.notification{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+  
+    background-image: linear-gradient(to left bottom, #d7cbdc, #ccc4e3, #b8c0ea, #99bef1, #6cbdf3);
+    color: rgb(110, 113, 160) !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    width: 100% !important;
+}
+
+.notification:hover, .unchecked_notification:hover{
+    background-color: rgb(235, 235, 235) !important;
+    color: grey !important;
+    /* background-image: linear-gradient(to left bottom, #645669, #7c5d89, #9462ab, #ac68cf, #c46cf3); */
+    background-image: linear-gradient(to left bottom, #e4ceec, #deb6ee, #d79ef0, #ce86f1, #c46cf3);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.notification:hover, .unchecked_notification:hover .notification__title{
+    color: grey !important;
+}
+
+.notification .notification__title{
+    color: rgb(110, 113, 160) !important;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+.unchecked_notification{
+    background-color: rgb(72, 72, 128) !important;
+    color: rgb(206, 209, 253) !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    width: 100% !important;
+}
+
+.unchecked_notification .notification__title{
+    color: rgb(206, 209, 253) !important;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+
+.notification__seen, .notification__createdAt{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.notification .notification__createdAt{
+    color: grey;
+}
+
