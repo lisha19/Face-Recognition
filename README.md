@@ -2,18 +2,18 @@
 An attendance tracking application with facial recognition.
 
 Requirement
-1.You will need a dependency managers such as npm, yarn, brew, etc.
-2.As for me, I am using npm.
-3.Download and install NodeJS if not exist: https://nodejs.org/en/download/
-4.Open CMD, type "node --version" to check NodeJS have been installed.
-5.Open CMD, type "npm --version" to check Node Package Manager (NPM) also have been installed.
+
+1. I am using npm.
+2.Download NodeJS
+
 
 Step 1: Download the source code
-If you have "git" installed, open CMD and type "git clone https://github.com/lisha19/Face-Recognition.git".
+ open CMD and type "git clone https://github.com/lisha19/Face-Recognition.git".
 
 ### Step 2: Install the dependency
-1. Open project in Visual Studio Code or any IDE.
-2. Open CMD in VSCode, change directory to "client" folder and install the dependency [command: cd client && npm i]
+
+1. Open CMD in VSCode, change directory to "client" folder and install the dependency [command: cd client && npm i]
+2. 
 3. Open another terminal, change directory to "server" folder and install the dependency [command: cd server && npm i]
 
 
@@ -21,7 +21,7 @@ If you have "git" installed, open CMD and type "git clone https://github.com/lis
 ### Step 3: Create an account in MongoDB Cloud and configure
 1. Go to https://www.mongodb.com/try to register a free-tier account.
 2. Create a project named "Attendlytical" and create a cluster named "Attendlytical-Cluster".
-3. Choose the nearest region, for me, GCP (Singapore).
+3. Choose the nearest region.
 4. Adding IP whitelist "0.0.0.0" to allow all network access.
 
 ### Step 4: Create an account in Cloudinary media storage and configure
